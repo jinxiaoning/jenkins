@@ -82,6 +82,9 @@ import static java.util.logging.Level.FINEST;
 import javax.annotation.Nonnull;
 
 /**
+ * desc：操作系统当前的进程树。
+ * note：创建ProcessTree对象时，在构造方法(或在父类的构造方法)中获取操作系统当前进程树的信息并存储起来。
+ * 
  * Represents a snapshot of the process tree of the current system.
  *
  * <p>
